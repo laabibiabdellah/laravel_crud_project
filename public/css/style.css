@@ -1,0 +1,27 @@
+#product_desc {
+    resize: none;
+}
+
+.btn {
+    color: #f4f4f4 !important;
+    transition: all 0.3s !important;
+}
+
+.btn:not(.btn-danger, .btn-info) {
+    background-color: #252525 !important;
+}
+.btn:not(.btn-danger, .btn-info):hover {
+    background-color: #a1a1a1 !important;
+}
+
+#list-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.req::after {
+    content: "*";
+    color: #ec0000;
+    font-weight: 400;
+}
